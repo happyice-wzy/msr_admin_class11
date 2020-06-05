@@ -3,10 +3,11 @@ package com.msr.edu.controller;
 
 import com.msr.edu.entity.Teacher;
 import com.msr.edu.service.TeacherService;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -17,22 +18,35 @@ import java.util.List;
  *
  * @author tom
  * @since 2020-06-05
- * @RestController 返回json格式
- * @RequestMapping 请求路径访问
+ * RestController 返回json格式
+ * RequestMapping 请求路径访问
  * GetMapping：指向的查询操作
  * DeleteMapping：指向的删除操作
  * PostMapping：指向的增加操作
  * PutMapping：指向的修改操作
  */
+
+@Api(description="讲师管理")
 @RestController
 @RequestMapping("/edu/teacher")
+@CrossOrigin //跨域
 public class TeacherController {
+
     @Autowired
     private TeacherService teacherService;
 
+    @ApiOperation(value = "所有讲师列表")
     @GetMapping("/list")
     public List<Teacher> list(){
         return teacherService.list(null);
+    }
+
+    @ApiOperation(value = "根据ID删除讲师")
+    @DeleteMapping("{id}")
+    public boolean removeById(
+            @ApiParam(name = "id", value = "讲师ID", required = true)
+            @PathVariable String id){
+        return teacherService.removeById(id);
     }
 }
 
