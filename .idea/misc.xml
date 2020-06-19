@@ -9,6 +9,12 @@
         <option value="$PROJECT_DIR$/msr-parent/pom.xml" />
         <option value="$PROJECT_DIR$/msr-common/pom.xml" />
         <option value="$PROJECT_DIR$/msr-edu/pom.xml" />
+        <option value="$PROJECT_DIR$/msr-ucenter/pom.xml" />
+        <option value="$PROJECT_DIR$/msr-statistics/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/renren-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/msr-gatway/pom.xml" />
+        <option value="$PROJECT_DIR$/msr-gateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -26,4 +32,5 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

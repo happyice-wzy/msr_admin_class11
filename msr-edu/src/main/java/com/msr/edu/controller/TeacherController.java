@@ -34,7 +34,6 @@ import java.util.List;
 @Api(description="讲师管理")
 @RestController
 @RequestMapping("/edu/teacher")
-@CrossOrigin //跨域
 public class TeacherController {
 
     @Autowired
@@ -81,7 +80,7 @@ public class TeacherController {
         return  R.ok().data("total", total).data("rows", records);
     }
     @ApiOperation(value = "新增讲师")
-    @PostMapping
+    @PostMapping("{dataForm}")
     public R save(
             @ApiParam(name = "teacher", value = "讲师对象", required = true)
             @RequestBody Teacher teacher){

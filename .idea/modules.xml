@@ -4,8 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/msr-common/msr-common.iml" filepath="$PROJECT_DIR$/msr-common/msr-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/msr-edu/msr-edu.iml" filepath="$PROJECT_DIR$/msr-edu/msr-edu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msr-gateway/msr-gateway.iml" filepath="$PROJECT_DIR$/msr-gateway/msr-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/msr-parent/msr-parent.iml" filepath="$PROJECT_DIR$/msr-parent/msr-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msr-statistics/msr-statistics.iml" filepath="$PROJECT_DIR$/msr-statistics/msr-statistics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msr-ucenter/msr-ucenter.iml" filepath="$PROJECT_DIR$/msr-ucenter/msr-ucenter.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/msr_admin_class11.iml" filepath="$PROJECT_DIR$/.idea/msr_admin_class11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-fast/renren-fast.iml" filepath="$PROJECT_DIR$/renren-fast/renren-fast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/renren-generator/renren-generator.iml" filepath="$PROJECT_DIR$/renren-generator/renren-generator.iml" />
     </modules>
   </component>
 </project>

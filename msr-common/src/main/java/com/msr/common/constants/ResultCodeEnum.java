@@ -16,7 +16,7 @@ public enum ResultCodeEnum {
     private Integer code;
     private String message;
 
-    private ResultCodeEnum(Boolean success, Integer code, String message) {
+    ResultCodeEnum(Boolean success, Integer code, String message) {
         this.success = success;
         this.code = code;
         this.message = message;

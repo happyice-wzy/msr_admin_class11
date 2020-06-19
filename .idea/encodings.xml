@@ -3,7 +3,13 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/msr-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msr-edu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msr-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msr-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/msr-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msr-statistics" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/msr-ucenter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-fast" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/renren-generator" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

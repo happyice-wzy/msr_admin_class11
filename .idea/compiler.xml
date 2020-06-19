@@ -6,21 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="msr-gateway" />
+        <module name="renren-generator" />
         <module name="msr-common" />
+        <module name="msr-statistics" />
+        <module name="renren-fast" />
         <module name="msr-edu" />
+        <module name="msr-ucenter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="msr-common" target="1.8" />
       <module name="msr-edu" target="1.8" />
+      <module name="msr-gateway" target="1.8" />
+      <module name="msr-gatway" target="1.8" />
       <module name="msr-parent" target="1.8" />
+      <module name="msr-statistics" target="1.8" />
+      <module name="msr-ucenter" target="1.8" />
+      <module name="renren-fast" target="1.8" />
+      <module name="renren-generator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="msr-common" options="-parameters" />
       <module name="msr-edu" options="-parameters" />
+      <module name="msr-gateway" options="-parameters" />
+      <module name="msr-gatway" options="-parameters" />
       <module name="msr-parent" options="-parameters" />
+      <module name="msr-statistics" options="-parameters" />
+      <module name="msr-ucenter" options="-parameters" />
+      <module name="renren-fast" options="-parameters" />
+      <module name="renren-generator" options="-parameters" />
     </option>
   </component>
 </project>
